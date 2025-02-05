@@ -1,0 +1,74 @@
+#root {
+  text-align: center;
+}
+
+.todoApp {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  padding: 5rem;
+  justify-content: center;
+  align-items: baseline;
+  background-color: rgb(51, 51, 233);
+}
+
+/* Todo list container */
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.bigtext {
+  font-size: 4rem;
+  color: #000;
+}
+
+.enter {
+  font-size: 1rem;
+}
+
+.inputtext {
+  font-size: 6rem;
+  padding: 3rem;
+}
+
+.lists {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Todo item style */
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Styling the input fields */
+.inputtext {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.submitBtn {
+  padding: 1em;
+  background-color: #00974c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.submitBtn:hover {
+  background-color: #009c4d;
+}
+
+.delete {
+  background-color: #ea2f21;
+  color: white;
+}
